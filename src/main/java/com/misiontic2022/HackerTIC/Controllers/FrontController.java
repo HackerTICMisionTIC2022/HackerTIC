@@ -57,13 +57,13 @@ public class FrontController {
                 
             } else {
                 
-                return "newEnterprise";
+                return "redirect:/";
                 
             }
             
         }
         
-        return "newEnterprise";
+        return "redirect:/";
         
     }
 	
@@ -89,13 +89,13 @@ public class FrontController {
                 
             } else {
                 
-                return "newEmployee";
+                return "redirect:/";
                 
             }
             
         }
         
-        return "newEmployee";
+        return "redirect:/";
         
     }
 	
