@@ -89,13 +89,13 @@ public class FrontController {
                 
             } else {
                 
-                return "redirect:/";
+                return "newEmployee";
                 
             }
             
         }
         
-        return "redirect:/";
+        return "newEmployee";
         
     }
 	
