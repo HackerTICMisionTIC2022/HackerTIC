@@ -49,7 +49,7 @@ public class TransactionController2 {
             
         }
 
-        return "transaction";
+        return "redirect:/";
 
     }
 
