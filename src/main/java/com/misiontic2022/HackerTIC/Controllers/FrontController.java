@@ -57,13 +57,13 @@ public class FrontController {
                 
             } else {
                 
-                return "redirect:/";
+                return "newEnterprise";
                 
             }
             
         }
         
-        return "redirect:/";
+        return "newEnterprise";
         
     }
 	

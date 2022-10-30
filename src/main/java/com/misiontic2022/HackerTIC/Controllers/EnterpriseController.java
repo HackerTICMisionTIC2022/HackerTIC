@@ -57,13 +57,13 @@ public class EnterpriseController {
                 
             } else {
                 
-                return "redirect:/";
+                return "enterprise";
                 
             }
             
         }
         
-        return "redirect:/";
+        return "enterprise";
 
     }
 
