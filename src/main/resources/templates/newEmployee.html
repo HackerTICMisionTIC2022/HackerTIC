@@ -177,7 +177,7 @@
 			<h3>Sistema de gestión de empleados</h3>
 			<hr/>
 			
-			<div class="container">
+			<div th:if="${employeeDB != null}" class="container">
 			  <form th:object="${employee}" th:action="@{/employees/}" th:method="post">
 			  	
 			    <label for="email">Correo electrónico</label>

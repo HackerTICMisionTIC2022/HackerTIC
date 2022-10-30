@@ -162,7 +162,7 @@
 		
 			<h3>Sistema de gestión de empleados</h3>
 			<hr/>
-			<a class="btn" href="/employees/newEmployee/">Crear nuevo empleado</a>
+			<a th:if="${employeeDB != null}" class="btn" href="/employees/newEmployee/">Crear nuevo empleado</a>
 			<hr th:if="${employeeDB != null}"/>
 			
 			<table class="center">
